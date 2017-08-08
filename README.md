@@ -1,10 +1,13 @@
-# download help
 
-A help file implemented in python to download pdf files to a given ```dir``` present at a ```URL```
+## Download files from URL
+A script written in python to download file(s) from any URL
 
-usage : ```temp.py <urL> <directory>```
+### usage:
+   ```temp.py [-h] -u <URL> [-l <location>] [-e <ext> [<ext> ...]]```
 
-The *pdf* files present on the given _URL_ will get downloaded to a folder named _directory_ in your pwd
-
-* url-format  http://some.url.com/additional/parameter
-
+### arguments: 
+  
+    -u URL              Target URL   
+    -l location         Save location | default : dnlwd   
+    -e ext [ext ...]  extention(s)
+    -h, --help          show this help message and exit 
